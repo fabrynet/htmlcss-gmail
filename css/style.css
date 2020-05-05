@@ -1,7 +1,9 @@
 /* parte generale */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&family=Roboto&display=swap');
 *{
   box-sizing: border-box;
   margin: 0 auto;
+  font-family: Jost, Arial, sans-serif;
 }
 body {
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
