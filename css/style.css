@@ -5,10 +5,6 @@
 }
 body {
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
-  color: white;
-}
-h1,h2,h3{
-  display: inline-block;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -19,33 +15,40 @@ h1,h2,h3{
 }
 
 /* intestazione */
-header{
-  padding: 10px 0px;
+header, nav, main {
+  /* padding: 10px 0px; */
+  border-bottom: 2px solid #fff;
 }
 .logo{
   width: 100px;
   vertical-align: middle;
 }
-.logo-text{
+.header-text{
   font-size: 25px;
+  font-weight: 700;
 }
 
 /* menu navigazione */
 nav{
   padding: 10px 0px;
 }
+#searchbar {
+  padding-bottom: 5px;
+}
+#notification-unread {
+  font-size: 20px;
+}
 #unread-count {
   display: inline-block;
   background-color: orange;
   /* il raggio del bordo al 50% corrisponde al raggio della circonferenza inscritta nel conteniotre padre -> si crea un cerchio */
   border-radius: 50%;
-  padding: 6px;
-
+  padding: 5px 7px;
 }
 
 /* corpo */
 .email{
-  margin: 10px 0px;
+  padding: 10px 0px;
 }
 /* sfruttiamo l'ereditarietà delle proprietà degli elementi e il fatto di poter sovrascrivere alcuen proprietà sfruttando le specificità */
 .row{
@@ -73,11 +76,13 @@ nav{
 }
 
 /* footer */
-.footer{
+footer{
   text-align: center;
   margin: 10px 0px;
 }
-.corsivo{
+.footer-text {
+  font-size: 20px;
+}
+.italic {
   font-style: italic;
-  color: rgba(255, 255, 255, 0.8);
 }

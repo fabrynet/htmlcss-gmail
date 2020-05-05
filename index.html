@@ -11,24 +11,21 @@
 
       <!-- intestazione con logo e il testo -->
       <header>
-        <div class="header">
           <img src="img/gmail.png" alt="Logo Gmail" class="logo">
-          <h1>GMail</h1>
-          <hr>
-        </div>
+          <span class="header-text">GMail</h1>
       </header>
 
       <!-- input e il testo degli unread -->
       <nav>
-        <div class="nav">
+        <div id="searchbar">
           <form class="" action="index.html" method="post">
             <input type="text" name="search" placeholder="Search">
             <input type="submit" name="vai" value="VAI">
           </form>
-          <br>
-          <h2>You have <span id="unread-count">30</span> unread</h2>
         </div>
-        <hr>
+        <div id="notification-unread">
+          You have <span id="unread-count">30</span> unread
+        </div>
       </nav>
 
       <!-- la lista delle email -->
@@ -65,14 +62,11 @@
             <span class="row-right">Questo invece è il corpo lungo della mail</span>
           </div>
         </div>
-        <hr>
       </main>
 
       <!-- crediti -->
       <footer>
-        <div class="footer">
-          <h3>Gmail</h3> <span class="corsivo">powered by Fabrynet</span>
-        </div>
+          <span class="footer-text">Gmail</span> <span class="italic">powered by Fabrynet</span>
       </footer>
 
     </div>
