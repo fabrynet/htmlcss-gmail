@@ -1,0 +1,83 @@
+/* parte generale */
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  color: white;
+}
+h1,h2,h3{
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* contenitore */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* intestazione */
+header{
+  padding: 10px 0px;
+}
+.logo{
+  width: 100px;
+  vertical-align: middle;
+}
+.logo-text{
+  font-size: 25px;
+}
+
+/* menu navigazione */
+nav{
+  padding: 10px 0px;
+}
+#unread-count {
+  display: inline-block;
+  background-color: orange;
+  /* il raggio del bordo al 50% corrisponde al raggio della circonferenza inscritta nel conteniotre padre -> si crea un cerchio */
+  border-radius: 50%;
+  padding: 6px;
+
+}
+
+/* corpo */
+.email{
+  margin: 10px 0px;
+}
+/* sfruttiamo l'ereditarietà delle proprietà degli elementi e il fatto di poter sovrascrivere alcuen proprietà sfruttando le specificità */
+.row{
+  color: black;
+  border: 1px solid black;
+  padding: 3px;
+}
+.read{
+  background-color: white;
+}
+.unread{
+  background-color: lightgrey;
+}
+.row-left{
+  display: inline-block;
+  width: 35%;
+}
+.row-right{
+  color: grey;
+  display: inline-block;
+  width: 63%;
+}
+.star{
+  color: orange;
+}
+
+/* footer */
+.footer{
+  text-align: center;
+  margin: 10px 0px;
+}
+.corsivo{
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}

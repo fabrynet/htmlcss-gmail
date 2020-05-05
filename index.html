@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- intestazione con logo e il testo -->
+      <header>
+        <div class="header">
+          <img src="img/gmail.png" alt="Logo Gmail" class="logo">
+          <h1>GMail</h1>
+          <hr>
+        </div>
+      </header>
+
+      <!-- input e il testo degli unread -->
+      <nav>
+        <div class="nav">
+          <form class="" action="index.html" method="post">
+            <input type="text" name="search" placeholder="Search">
+            <input type="submit" name="vai" value="VAI">
+          </form>
+          <br>
+          <h2>You have <span id="unread-count">30</span> unread</h2>
+        </div>
+        <hr>
+      </nav>
+
+      <!-- la lista delle email -->
+      <main>
+        <div class="email">
+          <div class="row read">
+            <span class="row-left">
+              <input type="checkbox" name="seleziona" value="seleziona">
+              <span class="star">&#9733;</span> Questo è l'oggetto corto</span>
+            <span class="row-right">Corpo della mail</span>
+          </div>
+          <div class="row unread">
+            <span class="row-left">
+              <input type="checkbox" name="seleziona" value="seleziona">
+              <span class="star">&#9733;</span> Questo è l'oggetto della mail</span>
+            <span class="row-right">Corpo della mail</span>
+          </div>
+          <div class="row read">
+            <span class="row-left">
+              <input type="checkbox" name="seleziona" value="seleziona">
+              <span class="star">&#9733;</span> Questo è l'oggetto della mail</span>
+            <span class="row-right">Corpo della mail</span>
+          </div>
+          <div class="row unread">
+            <span class="row-left">
+              <input type="checkbox" name="seleziona" value="seleziona">
+              <span class="star">&#9733;</span> Questo è l'oggetto della mail</span>
+            <span class="row-right">Corpo della mail</span>
+          </div>
+          <div class="row read">
+            <span class="row-left">
+              <input type="checkbox" name="seleziona" value="seleziona">
+              <span class="star">&#9733;</span> Questo è l'oggetto lungo della mail</span>
+            <span class="row-right">Questo invece è il corpo lungo della mail</span>
+          </div>
+        </div>
+        <hr>
+      </main>
+
+      <!-- crediti -->
+      <footer>
+        <div class="footer">
+          <h3>Gmail</h3> <span class="corsivo">powered by Fabrynet</span>
+        </div>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
