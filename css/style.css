@@ -41,6 +41,7 @@ nav{
   font-size: 20px;
 }
 #unread-count {
+  /* inline-block mi permette di definire un altezza e larghezza e occupare uno spazio */
   display: inline-block;
   background-color: orange;
   /* il raggio del bordo al 50% corrisponde al raggio della circonferenza inscritta nel conteniotre padre -> si crea un cerchio */
